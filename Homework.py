@@ -12,13 +12,15 @@ text = text.replace('»', ' ')
 text = text.replace('?', ' ')
 print(text)
 
-# 2) сформировать list со словами (split);
-text_list = text.split()
-print(text_list)
 
 # 3) привести все слова к нижнему регистру (map);
 text_low = text.lower()
 print(text_low)
+
+# 2) сформировать list со словами (split);
+text_list = text_low.split()
+print(text_list)
+
 
 # 3) получить из list пункта 3 dict, ключами которого являются слова, а значениями их количество появлений в тексте;
 
